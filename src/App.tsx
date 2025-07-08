@@ -8,10 +8,12 @@ function App() {
         <Tabs.Trigger value="optimistic-updates">
           Optimistic Updates
         </Tabs.Trigger>
+        <Tabs.Trigger value="tbd">TBD</Tabs.Trigger>
       </Tabs.List>
       <Tabs.Content value="optimistic-updates">
         <OptimisticUpdates />
       </Tabs.Content>
+      <Tabs.Content value="tbd">TBD</Tabs.Content>
     </Tabs.Root>
   );
 }

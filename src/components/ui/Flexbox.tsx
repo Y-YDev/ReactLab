@@ -7,8 +7,8 @@ export default function Flexbox(props: {
       style={{
         ...props.style,
         display: "flex",
-        gap: "5px",
-        flexDirection: "column",
+        gap: props.style.gap ?? "5px",
+        flexDirection: props.style.flexDirection ?? "column",
       }}
     >
       {props.children}
